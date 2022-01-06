@@ -14,7 +14,11 @@ function generatePassword() {
     alert("Please enter valid password between 8 and 128")
     generatePassword()
   }
-  
+
+  var lowerCase = confirm("Would you like lower case in your password");
+  var upperCase = confirm("Would you like upper case in your password");
+  var numeric = confirm("Would you like a numeric in your password");
+  var special = confirm("Would you like special character in your password");
 
 }
 
