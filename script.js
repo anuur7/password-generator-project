@@ -39,6 +39,13 @@ function generatePassword() {
   }
   console.log(choices)
 
+  var results = ''
+
+  for (let i = 0, n = choices.length; i <parseInt(pw); i++){
+    results += choices[Math.floor(Math.random() * n)]
+  }
+  return results;
+
 }
 
 // Write password to the #password input
